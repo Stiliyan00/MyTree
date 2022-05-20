@@ -1,0 +1,202 @@
+= Tree
+
+[#_a_framework_for_working_with_tree]
+==== A framework for working with tree.
+
+== Short Description:
+
+The main purpose of this framework is to provide the most commonly
+used tree-based data structures (Binary Search Tree, AVL Tree,
+B-Tree, 2-3-4 Tree and Red-Black Tree) as generic containers.
+
+!!NEITHER OF THE DATA STRUCTURES ARE THREAD SAFETY!!
+
+Every data structure works with Log4j and every exception, insertion, erasing or clearing of the tree addes a log message in the target file "log4j-application.log" which is in the root of the project.
+
+== Set-up:
+
+=== Pre Requirements:
+
+----
+openjdk 18 2022-03-22
+----
+
+----
+PlantUML Integration (version 5.12.0 or above)
+----
+
+=== Fast rebuild of documentation:
+
+----
+mvn -Pit.tidalwave-generate-readme-md-v1 -N
+----
+
+=== Install maven plugins:
+    Maven/mytree/Plugins/install/install::install
+
+=== Surefire:
+
+==== Run full build:
+
+----
+mvn clean install
+----
+
+==== To generate html reports:
+
+----
+mvn surefire-report:report-only surefire-report:failsafe-report-only
+----
+
+report will be generated under
+{projectDirectory}/target/site/
+
+==== To run a single test class using Surefire Plugin:
+
+----
+mvn clean install -Dtest=com.harishkannarao.SurefireSampleExtendedUnitTest
+----
+
+==== To run a single test method using Surefire Plugin:
+
+----
+mvn clean install -Dtest=com.harishkannarao.SurefireSampleUnitTest#surefireSampleUnitTest1
+----
+
+==== To run a single test class using Failsafe Plugin:
+
+----
+mvn clean install -Dit.test=com.harishkannarao.FailsafeSampleIT
+----
+
+==== To run a single test method using Failsafe Plugin:
+
+----
+mvn clean install -Dit.test=com.harishkannarao.FailsafeSampleIT#failsafeSampleIntegrationTest1
+----
+
+==== To skip tests by Surefire Plugin:
+
+----
+mvn clean install -DskipTests
+----
+
+==== To skip tests by Failsafe Plugin:
+
+----
+mvn clean install -DskipITs
+----
+
+=== Cloning the repository
+
+As the repository contains submodules, you can clone and populate them in a single step like this:
+
+----
+git clone --recurse-submodules git@gitlab.com:digital-lights/education/cmake/project-template.git <your-project-name>
+----
+
+where <your-project-name> is the name you want to give to your project.
+
+
+Another option is to clone it and initialize the submodules manually:
+
+----
+git clone git@gitlab.com:digital-lights/education/cmake/project-template.git <your-project-name>
+cd <your-project-name>
+git submodule init
+git submodule update
+----
+
+
+
+
+After that you can change the remote for origin and push to your own repository.
+
+== Class UML Diagram:
+If you have the pre required plantUML
+installed, you can find the full uml diagram of the tree framework in the root of the project by the name TreeFramework.uml.
+
+== Project structure:
+
+The unified interface for all tree based containers
+in our framework is Tree.java and for the two-node tree structures (binary and red-black trees) we have implemented most of the similarities in the abstract class AbstractBinaryTree. All tree structures are implemented by their standard definition in wikipedia. In addition to the standard interface we have added a functional interface PrettyPrintable.java which allows us to visualize every class which implements it as a text representation.
+
+== Design patterns used:
+=== Creational:
+Abstract Factory (interface factory)
+
+== Packages:
+
+----
+   src
+    ├── main
+    │     ├── java
+    │     │     └── lights.digital.masterclass.tree
+    │     │              ├── balanced
+    │     │              │      │
+    │     │              │      ├── alv
+    │     │              │      │    └── (...)
+    │     │              │      │     
+    │     │              │      ├── btree
+    │     │              │      │     └── BTree.java
+    │     │              │      │     
+    │     │              │      ├── tttree
+    │     │              │      │     └──TTTree.java
+    │     │              │      │     
+    │     │              │      └── redblack
+    │     │              │            ├── color
+    │     │              │            │     └── Color.java
+    │     │              │            │
+    │     │              │            └── RedBlackTree.java
+    │     │              │                  
+    │     │              │            
+    │     │              ├── exceptions
+    │     │              │       └─(...)
+    │     │              │        
+    │     │              ├── factory
+    │     │              │       ├── TreeFactory.java    
+    │     │              │       └── TreeType.java
+    │     │              │        
+    │     │              ├── print
+    │     │              │       ├── pretty
+    │     │              │       │     └── PrettyPrintable.java 
+    │     │              │       │    
+    │     │              │       └── PrintableNode.java
+    │     │              │
+    │     │              ├── twonode
+    │     │              │       ├── binary
+    │     │              │       │     └──BinaryTree.java 
+    │     │              │       │    
+    │     │              │       └── AbstractBinaryTree.java
+    │     │              │
+    │     │              ├── Traversal.java
+    │     │              └── Tree.java
+    │     │
+    │     │
+    │     │
+    │     └── resources
+    │             └── (...)
+    │
+    │
+    │
+    │
+    │
+    │
+    └── test
+          └── java
+                └── lights.digital.masterclass.tree
+                         ├── balanced
+                         │      │
+                         │      ├── btree
+                         │      │     └── BTreeTest.java
+                         │      │     
+                         │      ├── tttree
+                         │      │     └── TTTree.java
+                         │      │     
+                         │      └── redblack
+                         │      
+                         ├── twonode.binary
+                         │        └── BinaryTreeTest.java
+                         │     
+                         └──TreeTest.java    
+----

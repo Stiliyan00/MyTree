@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/stiliqniliev/MasterClass/mytree/src</OriginalElement>
+  <nodes>
+    <node x="465.0" y="1665.0">lights.digital.masterclass.tree.TreeTest</node>
+    <node x="240.0" y="1665.0">lights.digital.masterclass.tree.balanced.tttree.TTTreeTest</node>
+    <node x="1314.9999999999998" y="1466.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.GetAllElementsTest</node>
+    <node x="1132.0" y="1665.0">lights.digital.masterclass.tree.factory.TreeType</node>
+    <node x="0.0" y="913.0">lights.digital.masterclass.tree.twonode.AbstractBinaryTree.BinaryTreeNode</node>
+    <node x="412.9999999999998" y="1444.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.ContainsTest</node>
+    <node x="126.92229729729729" y="565.0">lights.digital.masterclass.tree.print.PrintableNode</node>
+    <node x="3050.0" y="1488.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.ClearTest</node>
+    <node x="1627.0" y="1665.0">lights.digital.masterclass.tree.factory.TreeFactory</node>
+    <node x="1254.0" y="879.0">lights.digital.masterclass.tree.balanced.tttree.TTTree.TTTreeNode</node>
+    <node x="486.4054054054054" y="105.0">lights.digital.masterclass.tree.Tree</node>
+    <node x="987.3986486486486" y="0.0">lights.digital.masterclass.tree.print.pretty.PrettyPrintable</node>
+    <node x="3522.0" y="1466.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.HeightTest</node>
+    <node x="561.9222972972973" y="398.0">lights.digital.masterclass.tree.twonode.AbstractBinaryTree</node>
+    <node x="858.9999999999998" y="1433.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.TextTest</node>
+    <node x="848.0" y="891.0">lights.digital.masterclass.tree.twonode.binary.BinaryTree</node>
+    <node x="1390.0" y="1665.0">lights.digital.masterclass.tree.balanced.redblack.color.Color</node>
+    <node x="448.0" y="913.0">lights.digital.masterclass.tree.balanced.redblack.RedBlackTree</node>
+    <node x="345.2972972972973" y="1140.0">lights.digital.masterclass.tree.balanced.redblack.RedBlackTree.RedBlackNode</node>
+    <node x="659.0" y="1665.0">lights.digital.masterclass.tree.balanced.btree.BTreeTest</node>
+    <node x="2485.0" y="1455.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.InsertTest</node>
+    <node x="1904.9999999999998" y="1466.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.EraseTest</node>
+    <node x="1248.0" y="431.0">lights.digital.masterclass.tree.balanced.tttree.TTTree</node>
+    <node x="3955.0" y="1466.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.EmptyTest</node>
+    <node x="2103.0" y="1284.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest</node>
+    <node x="0.0" y="1665.0">lights.digital.masterclass.tree.balanced.redblack.RedBlackTreeTest</node>
+    <node x="316.9222972972973" y="464.0">lights.digital.masterclass.tree.balanced.btree.BTree</node>
+    <node x="0.0" y="1466.0">lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.SizeTest</node>
+    <node x="872.0" y="1665.0">lights.digital.masterclass.tree.Traversal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.ClearTest" target="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest" relationship="INNER_CLASS">
+      <point x="0.0" y="-38.5" />
+      <point x="3276.0" y="1408.0" />
+      <point x="2185.0" y="1408.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.EraseTest" target="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest" relationship="INNER_CLASS">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.InsertTest" target="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest" relationship="INNER_CLASS">
+      <point x="0.0" y="-71.5" />
+      <point x="2757.5" y="1408.0" />
+      <point x="2185.0" y="1408.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.balanced.redblack.RedBlackTree.RedBlackNode" target="lights.digital.masterclass.tree.twonode.AbstractBinaryTree.BinaryTreeNode" relationship="GENERALIZATION">
+      <point x="-24.29729729729729" y="-49.5" />
+      <point x="206.5" y="71.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.ContainsTest" target="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest" relationship="INNER_CLASS">
+      <point x="2.2737367544323206E-13" y="-82.5" />
+      <point x="626.0" y="1408.0" />
+      <point x="2185.0" y="1408.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.SizeTest" target="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest" relationship="INNER_CLASS">
+      <point x="0.0" y="-60.5" />
+      <point x="196.5" y="1408.0" />
+      <point x="2185.0" y="1408.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.balanced.redblack.RedBlackTree.RedBlackNode" target="lights.digital.masterclass.tree.balanced.redblack.RedBlackTree" relationship="INNER_CLASS">
+      <point x="10.702702702702709" y="-49.5" />
+      <point x="-182.5" y="71.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.balanced.tttree.TTTree.TTTreeNode" target="lights.digital.masterclass.tree.balanced.tttree.TTTree" relationship="INNER_CLASS">
+      <point x="0.0" y="-105.5" />
+      <point x="0.0" y="182.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.balanced.redblack.RedBlackTree" target="lights.digital.masterclass.tree.twonode.AbstractBinaryTree" relationship="GENERALIZATION">
+      <point x="0.0" y="-71.5" />
+      <point x="638.0" y="854.0" />
+      <point x="836.422" y="854.0" />
+      <point x="-2.972972972656862E-4" y="215.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.balanced.btree.BTree" target="lights.digital.masterclass.tree.Tree" relationship="REALIZATION">
+      <point x="-2.972972972656862E-4" y="-149.5" />
+      <point x="429.422" y="367.0" />
+      <point x="598.905" y="367.0" />
+      <point x="-4.054054054449807E-4" y="115.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.GetAllElementsTest" target="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest" relationship="INNER_CLASS">
+      <point x="2.2737367544323206E-13" y="-60.5" />
+      <point x="1600.0" y="1408.0" />
+      <point x="2185.0" y="1408.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.EmptyTest" target="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest" relationship="INNER_CLASS">
+      <point x="0.0" y="-60.5" />
+      <point x="4090.5" y="1408.0" />
+      <point x="2185.0" y="1408.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.AbstractBinaryTree.BinaryTreeNode" target="lights.digital.masterclass.tree.twonode.AbstractBinaryTree" relationship="INNER_CLASS">
+      <point x="12.922297297297291" y="-71.5" />
+      <point x="226.9222972972973" y="780.5" />
+      <point x="-274.5" y="167.0" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.Tree" target="lights.digital.masterclass.tree.print.pretty.PrettyPrintable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-115.5" />
+      <point x="598.9054054054054" y="26.5" />
+      <point x="-85.00000000000011" y="0.0" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.balanced.tttree.TTTree" target="lights.digital.masterclass.tree.Tree" relationship="REALIZATION">
+      <point x="0.0" y="-182.5" />
+      <point x="1444.0" y="367.0" />
+      <point x="598.905" y="367.0" />
+      <point x="-4.054054054449807E-4" y="115.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.AbstractBinaryTree.BinaryTreeNode" target="lights.digital.masterclass.tree.print.PrintableNode" relationship="REALIZATION">
+      <point x="-2.077702702702709" y="-71.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTree" target="lights.digital.masterclass.tree.twonode.AbstractBinaryTree" relationship="GENERALIZATION">
+      <point x="0.0" y="-93.5" />
+      <point x="1041.0" y="854.0" />
+      <point x="836.422" y="854.0" />
+      <point x="-2.972972972656862E-4" y="215.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.AbstractBinaryTree" target="lights.digital.masterclass.tree.Tree" relationship="REALIZATION">
+      <point x="-2.972972972656862E-4" y="-215.5" />
+      <point x="836.422" y="367.0" />
+      <point x="598.905" y="367.0" />
+      <point x="-4.054054054449807E-4" y="115.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.AbstractBinaryTree" target="lights.digital.masterclass.tree.print.pretty.PrettyPrintable" relationship="REALIZATION">
+      <point x="274.49970270270273" y="0.0" />
+      <point x="1203.0" y="613.5" />
+      <point x="1203.0" y="26.5" />
+      <point x="85.00035135135113" y="0.0" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.TextTest" target="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest" relationship="INNER_CLASS">
+      <point x="2.2737367544323206E-13" y="-93.5" />
+      <point x="1077.0" y="1408.0" />
+      <point x="2185.0" y="1408.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.balanced.tttree.TTTree" target="lights.digital.masterclass.tree.print.pretty.PrettyPrintable" relationship="REALIZATION">
+      <point x="-196.0" y="0.0" />
+      <point x="1203.0" y="613.5" />
+      <point x="1203.0" y="26.5" />
+      <point x="85.00035135135113" y="0.0" />
+    </edge>
+    <edge source="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest.HeightTest" target="lights.digital.masterclass.tree.twonode.binary.BinaryTreeTest" relationship="INNER_CLASS">
+      <point x="0.0" y="-60.5" />
+      <point x="3728.5" y="1408.0" />
+      <point x="2185.0" y="1408.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5560056523787094" showDependencies="false" x="786.5080481192816" y="1459.2838021009827" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

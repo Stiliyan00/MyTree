@@ -1,0 +1,14 @@
+lights\digital\masterclass\tree\balanced\btree\BTreeTest.class
+lights\digital\masterclass\tree\twonode\AbstractBinaryTreeTest$SizeTest.class
+lights\digital\masterclass\tree\balanced\tttree\TTTreeTest.class
+lights\digital\masterclass\tree\twonode\binary\BinaryTreeTest$InsertTest.class
+lights\digital\masterclass\tree\twonode\AbstractBinaryTreeTest$ClearTest.class
+lights\digital\masterclass\tree\twonode\AbstractBinaryTreeTest$TextTest.class
+lights\digital\masterclass\tree\balanced\redblack\RedBlackTreeTest.class
+lights\digital\masterclass\tree\twonode\AbstractBinaryTreeTest.class
+lights\digital\masterclass\tree\twonode\AbstractBinaryTreeTest$GetAllElementsTest.class
+lights\digital\masterclass\tree\twonode\AbstractBinaryTreeTest$HeightTest.class
+lights\digital\masterclass\tree\twonode\binary\BinaryTreeTest.class
+lights\digital\masterclass\tree\twonode\binary\BinaryTreeTest$EraseTest.class
+lights\digital\masterclass\tree\twonode\AbstractBinaryTreeTest$ContainsTest.class
+lights\digital\masterclass\tree\twonode\AbstractBinaryTreeTest$EmptyTest.class
